@@ -31,7 +31,7 @@ SECRET_KEY = config['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['50.116.32.66']
+ALLOWED_HOSTS = ['50.116.32.66', 'stronglabs.net']
 
 
 # Application definition
