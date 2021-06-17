@@ -1,0 +1,14 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<div>
+  <h3>Did this page take a second to render?</h3>
+  <p>A fresh connection to the DevNet Sandbox is established each time this page is loaded.</p>
+</div>
+<div class="mt-4">
+{% for interface in interfaces %}
+  <pre>
+  {{ interface}}
+  </pre>
+{% endfor %}
+</div>
+{% endblock content %}
